@@ -1,0 +1,128 @@
+<ui version="4.0" >
+ <class>Hauptmenu</class>
+ <widget class="QWidget" name="Hauptmenu" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>651</width>
+    <height>375</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Hauptmenü</string>
+  </property>
+  <widget class="QLabel" name="label" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>71</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Schülerliste:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnNeu" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>151</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Schüler neu anlegen</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOwn" >
+   <property name="geometry" >
+    <rect>
+     <x>330</x>
+     <y>340</y>
+     <width>151</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Eigene Daten anzeigen</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAnz" >
+   <property name="geometry" >
+    <rect>
+     <x>170</x>
+     <y>340</y>
+     <width>151</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Schüler anzeigen</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEnd" >
+   <property name="geometry" >
+    <rect>
+     <x>490</x>
+     <y>340</y>
+     <width>151</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Beenden</string>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>631</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="minimumSize" >
+    <size>
+     <width>631</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize" >
+    <size>
+     <width>631</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="lineWidth" >
+    <number>1</number>
+   </property>
+   <column>
+    <property name="text" >
+     <string>Vorname</string>
+    </property>
+   </column>
+   <column>
+    <property name="text" >
+     <string>Nachname</string>
+    </property>
+   </column>
+   <column>
+    <property name="text" >
+     <string>Rolle</string>
+    </property>
+   </column>
+   <column>
+    <property name="text" >
+     <string>Ampel</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
